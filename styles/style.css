@@ -75,6 +75,9 @@ table {
 }
 
 /*Styles*/
+html {
+  background: #ffffff;
+}
 
 body {
   font-family: "calibreweb", "sans-serif";
@@ -502,6 +505,10 @@ footer .content div:first-child a {
 /*Responsive Styles*/
 
 @media only screen and (max-width: 1140px) {
+        .header {
+          padding-top: 20px;
+        }
+
         .content,
         footer .content {
           max-width: 904px;
