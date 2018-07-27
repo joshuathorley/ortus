@@ -501,7 +501,7 @@ footer .content div:first-child a {
 
 /*Responsive Styles*/
 
-@media screen and (max-width: 1140px) {
+@media only screen and (max-width: 1140px) {
         .content,
         footer .content {
           max-width: 904px;
@@ -580,13 +580,13 @@ footer .content div:first-child a {
         }
 }
 
-@media screen and (max-width: 920px) {
+@media only screen and (max-width: 920px) {
   .sponsordesc {
     margin-bottom: 56px;
   }
 }
 
-@media screen and (max-width: 880px) {
+@media only screen and (max-width: 880px) {
         h1 {
           font-size: 48px;
           line-height: 48px;
@@ -637,7 +637,7 @@ footer .content div:first-child a {
         }
 }
 
-@media screen and (max-width: 760px) {
+@media only screen and (max-width: 760px) {
         .content,
         footer .content {
           padding: 0 16px;
@@ -692,7 +692,7 @@ footer .content div:first-child a {
         }
 }
 
-@media screen and (max-width: 560px) {
+@media only screen and (max-width: 560px) and (min-width: 200px) {
         .listingtopbar h3 {
           display: none;
         }
