@@ -344,6 +344,11 @@ select,
   margin-bottom: 40px;
 }
 
+.listingtopbar h3 {
+  font-size: 24px;
+  line-height: 32px;
+}
+
 .filters {
   margin-left: auto;
 }
@@ -385,6 +390,11 @@ select,
   border-radius: 8px;
   display: flex;
   box-sizing: border-box;
+  margin-bottom: 4px;
+}
+
+.toollisting:last-of-type {
+  margin-bottom: 0px;
 }
 
 .listingdata {
@@ -440,7 +450,7 @@ footer {
 }
 
 footer .content {
-  padding: 56px 0 64px;
+  padding: 64px 0 76px;
   display: flex;
 }
 
@@ -482,4 +492,208 @@ footer .content div:first-child a {
 
 .sponsorcallout p:last-child {
   margin-top: 20px;
+}
+
+.slutdrop {
+  display: inline-block;
+}
+
+
+/*Responsive Styles*/
+
+@media screen and (max-width: 1140px) {
+        .content,
+        footer .content {
+          max-width: 904px;
+          padding: 0 20px;
+        }
+
+        footer .content {
+          padding: 56px 20px 64px;
+        }
+
+        h1 {
+          font-size: 52px;
+          line-height: 52px;
+        }
+
+        h3 {
+          font-size: 24px;
+          line-height: 32px;
+        }
+
+        p {
+          font-size: 16px;
+          line-height: 24px;
+        }
+
+        p.large {
+          font-size: 20px;
+          line-height: 28px;
+        }
+
+        footer p.large {
+          font-size: 24px;
+          line-height: 32px;
+        }
+
+        p.small {
+          font-size: 14px;
+          line-height: 20px;
+        }
+
+        .sponsorcallout p {
+          font-size: 18px;
+          line-height: 24px;
+        }
+
+        .btn p {
+          font-size: 18px;
+        }
+
+        h1 + p {
+          margin-top: 24px;
+        }
+
+        #hero h1 {
+          max-width: 780px;
+        }
+
+        #hero p.large {
+          max-width: 440px;
+        }
+
+        #hero p.small {
+          max-width: 280px;
+        }
+
+        .sponsordisclaimer p:last-of-type {
+          font-size: 16px;
+        }
+
+        .sponsorcallout p:last-child {
+          margin-top: 16px;
+        }
+
+        .sponsorcard {
+          max-height: none;
+        }
+}
+
+@media screen and (max-width: 920px) {
+  .sponsordesc {
+    margin-bottom: 56px;
+  }
+}
+
+@media screen and (max-width: 880px) {
+        h1 {
+          font-size: 48px;
+          line-height: 48px;
+        }
+
+        #hero {
+          margin-right: 28px;
+        }
+
+        #hero p.large {
+          max-width: none;
+        }
+
+        .sponsordisclaimer {
+          display: inline-block;
+        }
+
+        .sponsordesc {
+          margin-bottom: 16px;
+        }
+
+        .sponsordiscounts {
+          position: unset;
+          flex-wrap: wrap;
+          margin-top: -8px;
+        }
+
+        .sponsordiscounts a .btn {
+          margin-top: 8px;
+        }
+
+        .sponsorcards {
+          flex-wrap: wrap;
+        }
+
+        .sponsorcard {
+          width: 100%;
+          margin-bottom: 12px;
+          min-height: 0;
+        }
+
+        .sponsorcard:last-of-type {
+          margin-bottom: 0px;
+        }
+
+        .sponsorcard:first-of-type {
+          margin-right: 0;
+        }
+}
+
+@media screen and (max-width: 760px) {
+        .content,
+        footer .content {
+          padding: 0 16px;
+        }
+
+        footer .content {
+          padding: 40px 16px 52px;
+        }
+
+        #hero {
+          margin-left: 12px;
+        }
+
+        #listings {
+          padding: 16px;
+        }
+
+        footer {
+          margin-top: 80px;
+        }
+
+        footer .content div {
+          width: 100%
+        }
+
+        footer .content {
+          flex-wrap: wrap;
+          flex-direction: column;
+        }
+
+        footer .content div:first-child {
+          order: 2;
+        }
+
+        footer .content div:last-child {
+          order: 1;
+        }
+
+        .sponsorcallout {
+          margin-left: 0;
+          padding-left: 0;
+          box-shadow: none;
+          margin-bottom: 48px;
+        }
+
+        .category {
+          width: 100%;
+        }
+
+        .category:nth-of-type(2) {
+          margin-top: 56px;
+        }
+}
+
+@media screen and (max-width: 560px) {
+        .listingtopbar h3 {
+          display: none;
+        }
 }
